@@ -1,0 +1,145 @@
+.header {
+	background: #fff;
+  	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  	padding: 9px 0 9px 0;
+  	margin-bottom: 25px;
+}
+
+.header__left, .header__right {
+	float: left;
+	width: 50%;
+}
+.header__right {
+	text-align: right;
+	padding-top: 20px;
+}
+.user__photo {
+	border: 1px solid #bebebe;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+.user__name {
+	font-family: 'Fira sans';
+	font-weight: 400;
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 19px;
+	max-width: 235px;
+}
+
+.user__photo-pic {
+	display: block;
+	height: 60px;
+	width: 60px;
+
+}
+
+.contacts {
+    //margin-top: 30px;
+	display: inline-block;
+	position: relative;
+
+	&:hover {
+		.contacts__trigger {
+			color: #e85f61;
+			border-bottom: 2px dotted #e85f61;
+		}
+
+		.contacts__dropdown {
+			display: block;
+		}
+	}
+}
+
+.contacts__dropdown {
+	padding: 15px 20px;
+	background: #fff;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 10;
+	margin-top: 12px;
+	display: none;
+
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		right: 0;
+		height: 30px;
+		top: -28px;
+	}
+}
+
+.contacts__dropdown-triangle {
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 10px;
+	width: 20px;
+
+	&:after, &:before {
+		content: "";
+		display: block;
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-top-width: 0px;
+		top: 0px;
+		position: absolute;
+		left: 0;
+		transform: translate(-50%);
+	}
+
+	&:before {
+		border-bottom-color: #dedede;
+
+	}
+
+	&:after {
+		border-bottom-color: #fff;
+		margin-top: 1px;
+	}
+}
+
+.contacts__dropdown-link {
+	white-space: nowrap;
+	font-size: 18px;
+	font-family: 'Fira sans';
+	font-weight: 300;
+	color: #414141;
+	text-decoration: none;
+	text-align: left;
+	display: block;
+}
+
+
+.contacts__dropdown-icon {
+	color: #33c1e3;
+	margin-right: 15px;
+}
+
+.contacts__dropdown-item {
+	margin-bottom: 15px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.contacts__trigger {
+	font-family: 'Fira sans';
+	font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    color: #33c1e3;
+    border-bottom: 2px dotted #33c1e3;
+}

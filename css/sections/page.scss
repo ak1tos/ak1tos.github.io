@@ -1,0 +1,51 @@
+.page {
+	margin-left: 20px;
+	margin-bottom: 70px;
+	width: 700px;
+	float: left;
+}
+.about__pic {
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid #fff;
+	display: inline-block;
+}
+.about__pic-big {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+.about__left, .about__right {
+	float: left;
+}
+.about__left {
+	width: 320px;
+	text-align: center;
+}
+.about__right {
+	width: 380px;
+}
+.about__text {
+	overflow: auto;
+	margin-bottom: 45px;
+	height: 340px;
+}
+.text-block p {
+	margin-bottom: 15px;
+	margin-top: 0;
+	font-family: 'Fira sans';
+	font-weight: 300;
+	font-size: 18px;
+}
+.about__download {
+	text-align: right;
+}
+.btn__icon, .btn__text {
+	display: inline-block;
+	vertical-align: middle;
+}
+ .btn__text { 
+	margin-left: 8px;
+ }

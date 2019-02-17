@@ -1,0 +1,56 @@
+@media screen and (max-width: 992px) {
+	
+	.wrapper, .footer {
+		min-width: 0;
+	}	
+
+
+	.container {
+		width: 750px;
+		padding: 0 20px;
+	}
+	
+	.sidebar {
+		float: none;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	
+	.page {
+		float: none;
+		width: 100%;
+	}
+	.nav__item {
+		display: inline-block;
+		text-align: left;
+		vertical-align: middle;
+	}
+
+	.nav__link {
+		border: none;
+	}
+
+	.nav__list {
+		text-align: left;
+	}
+
+	.about__pic {
+		width: 180px;
+		height: 180px;
+	}
+
+	.about__right {
+		width: 65%;
+
+	}
+
+	.about__left {
+		width: 35%;
+	}
+	
+	.about__text {
+	overflow: auto;
+	margin-bottom: 45px;
+	height: 40vh;
+	}
+}

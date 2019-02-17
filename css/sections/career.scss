@@ -1,0 +1,143 @@
+.career__pic {
+	width: 220px;
+	height: 220px;
+	border-radius: 9px;
+	overflow: hidden;
+}
+
+.career__pic-element {
+	display: block;
+	max-width: 100%;
+}
+.career__left {
+	float: left;
+	width: 220px;
+}
+
+.career__right {
+	float: left;
+	width: 480px;
+}
+
+.career__list {
+	text-align: right;
+}
+
+.career__item {
+	padding-left: 70px;
+}
+
+.career__block {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  width: 380px;
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.career__block:after, .career__block:before {
+	content: "";
+	display: block;
+	width: 1px;
+	background: #dddddd;
+	position: absolute;
+	right: 100%;
+	margin-right: 20px;
+}
+
+.career__item:first-child .career__block:after, .career__item:last-child .career__block:before  {
+	display: none;
+}
+
+
+.career__block:after {
+	top: 0;
+	bottom: 50%;
+}
+
+.career__block:before {
+	top: 50%;
+	bottom: -25px;
+}
+
+.career__item:hover .career__block {
+	background: #33c1e3;
+}
+.career__title {
+	font-family: 'Fira sans';
+	font-weight: 400;
+	font-size: 21px;
+	color: #5a5a5a;
+	margin-bottom: 10px;
+}
+
+.career__item:hover .career__title {
+	color: #fff;
+}
+
+.career__occupation {
+	font-family: 'Fira sans';
+	font-weight: 300;
+	font-size: 18px;
+	color: #727272;
+	margin-bottom: 10px;
+}
+
+.career__item:hover .career__occupation {
+	color: #fff;
+}
+
+.career__time {
+	font-family: 'Fira sans';
+	font-weight: 300;
+	font-size: 18px;
+	color: #727272;
+	margin-bottom: 0;
+}
+
+.career__item:hover .career__time {
+	color: #fff;
+}
+
+.career__year {
+	position: absolute;
+	top: 50%;
+	margin-top: -14px;
+	right: 100%;
+	margin-right: 35px;
+	font-family: 'Fira sans';
+	font-weight: 300;
+	font-size: 14px;
+	color: #727272;
+	line-height: 28px;
+}
+
+.career__item:hover .career__year {
+	font-family: 'Fira sans';
+	font-weight: 700;
+	color: #33c1e3;
+}
+
+.career__year::after {
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: #33c1e3;
+	border-radius: 50%;
+	position: absolute;
+	right: -25px;
+	top: 50%;
+	margin-top: -10px;
+	border: 5px solid #f6f6f6;
+	z-index: 1;
+
+}
+
+.career__item:hover .career__year::after {
+	border-color: #94e0f2;
+}

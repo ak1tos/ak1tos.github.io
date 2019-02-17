@@ -1,0 +1,89 @@
+.portfolio__list {
+	margin-left: -20px;
+}
+.portfolio__item {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.2);
+  width: 220px;
+  overflow: hidden;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio__link {
+	display: block;
+	text-decoration: none;
+}
+
+.portfolio__link:hover .portfolio__name {
+	color: #e85f61;
+}
+
+.portfolio__img-app {
+	height: 164px;
+	background: url('../img/content/deals-app.jpg') center center no-repeat;
+	background-size: cover; 
+}
+
+.portfolio__img-scapes {
+	height: 164px;
+	background: url('../img/content/dream-scapes.jpg') center center no-repeat;
+	background-size: cover; 
+}
+
+.portfolio__img-creative {
+	height: 164px;
+	background: url('../img/content/creative-studio.jpg') center center no-repeat;
+	background-size: cover; 
+}
+
+.portfolio__img-frog {
+	height: 164px;
+	background: url('../img/content/studio-frog.jpg') center center no-repeat;
+	background-size: cover; 
+}
+
+.portfolio__img-carbonara {
+	height: 164px;
+	background: url('../img/content/carbonara.jpg') center center no-repeat;
+	background-size: cover; 
+}
+
+.portfolio__img-elem {
+	display: block;
+	max-width: 100%;
+}
+.portfolio__name {
+	font-family: 'Fira sans';
+	font-weight: 500;
+	font-size: 21px;
+	margin-bottom: 5px;
+	color: #33c1e3;
+}
+
+.portfolio__description {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.portfolio__info {
+	font-family: 'Fira sans';
+	font-weight: 300;
+	font-size: 14px;
+	color: #929292;
+	margin-bottom: 10px;
+}
+
+.portfolio__class {
+	font-family: 'Fira sans';
+	font-weight: 700;
+	font-size: 14px;
+	color: #aeaeae;
+	margin-bottom: 15px;
+}
+
+.portfolio__item-icon {
+		font-size: 18px;
+}

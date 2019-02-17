@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+	}
+	
+	.header__left {
+		width: 80%;
+	}
+
+	.header__right {
+		width: 20%;
+	}
+	.user__name {
+		max-width: 120px;
+		font-size: 14px;
+		margin-left: 14px;
+	}
+
+	.nav__link-text {
+		font-size: 14px;
+	}
+
+	.nav__link-icon {
+		display: none;;
+	}
+	.sidebar {
+		width: 100%;
+	}
+	.nav__list {
+		text-align: center;
+	}
+
+	.about__pic {
+		width: 150px;
+		height: 150px;
+	}
+	
+	.container {
+		padding: 0;
+	}
+
+	.about__right, .about__left {
+		width: 100%;
+	}
+
+	//portfolio 
+
+	.portfolio__item {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.portfolio__list {
+		margin-left: 0;
+	}
+
+}
